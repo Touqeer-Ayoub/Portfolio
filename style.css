@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* navbar start */
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0px 7px 7px gainsboro;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    padding-left: 130px; 
+    padding-right: 130px;
+    text-align: center;
+    height: 60px;
+    background: linear-gradient(90deg,rgb(54, 54, 54),rgb(139, 139, 139),rgb(54, 54, 54));
+}
+nav .child1 p{
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+nav .child1 p .span1{
+    color: orange;
+}
+nav .child2 a{
+    color: white;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+nav .child2 a .span2{
+    color: orange;
+}
+nav .child2 a:hover{
+    color: aqua;
+}
+nav .child3 a{
+    font-size: 20px;
+    padding: 7px 25px 7px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+nav .child3 a:hover{
+    background-color: orangered;
+    box-shadow: 3px 3px 10px orangered,-3px -3px 10px orangered;
+    color: white;
+    transition: 0.5s ease;
+}
+nav .child3 button:hover a:hover{
+    color: white;
+    text-decoration: none;
+}
+/* navbar end */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* home page start */
+.homepage{
+    padding-top: 10%;
+    padding-bottom: 8%;
+    background: linear-gradient(90deg,rgb(54, 54, 54)50%,rgb(73, 73, 73));
+}
+ .parent1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.parent1 .child4{
+    padding-top: 5%;
+}
+.parent1 .child4 .para1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;  
+    font-size: 35px;
+    word-spacing: 2px;
+    color:white;
+}
+.parent1 .child4 p{
+    width: 550px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+}
+
+.parent1 .child4 .para1 .span3{
+    color: orange;
+}  
+.parent1 .child4 a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 7px 35px 7px 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: cornsilk;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.parent1 .child4 a:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px 10px orange,-3px -3px 10px orange;
+    color: white;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+
+.parent1 .child5 img{
+    color: gray;
+    width: 500px;
+    height: 480px;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orangered;
+    box-shadow: 1px 1px 10px 10px  rgb(255, 140, 0);
+    border-radius: 100%;
+}
+
+/* home page end */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.aboutpage{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background: linear-gradient(90deg,rgb(73, 73, 73),rgb(54, 54, 54)50%);
+}
+ .parent2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.parent2 .child6{
+    padding-top: 7%;
+}
+.parent2 .child6 .para2{
+    font-family:Arial, Helvetica, sans-serif;  
+    font-size: 35px;
+    color:white;
+}
+.parent2 .child6 p{
+    width: 550px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+}
+
+.parent2 .child6 .para2 .span3{
+    color: orange;
+}  
+.parent2 .child6 a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: cornsilk;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.parent2 .child6 a:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px 10px orange,-3px -3px 10px orange;
+    color: white;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+.parent2 .child6 li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: cornsilk;
+}
+.parent2 .child7 img{
+    color: gray;
+    width: 500px;
+    height: 480px;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orangered;
+    box-shadow: 1px 1px 10px 10px  rgb(255, 140, 0);
+    border-radius: 100%;
+}
+/* about page end */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* project page start */
+.projectpage{
+    background-image: url(images/b1.jpg);
+}
+.parent3{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.parent3 h1{
+    font-size: 35px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+}
+.span4{
+    color: orangered;
+}
+.parent3 p{
+    text-align: center;
+    font-style: italic;
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: cornsilk;
+}
+.span5{
+    color: orangered;
+}
+.parent3 .button{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.parent3 .button button{
+    width: 160px;
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background: linear-gradient(45deg,gray,orange,black);
+}
+.parent3 .button button a{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+/* project page end */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* contact page start */
+.parent4 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    background: linear-gradient(90deg, white, rgb(206, 199, 199));
+}
+
+.parent4 p {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parent4 p .span6 {
+    color: orangered;
+}
+
+.form {
+    text-align: center;
+}
+
+.form input {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 35.1%;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgb(206, 199, 199), white);
+}
+
+textarea {
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(206, 199, 199), white);
+}
+
+.form button {
+    width: 130px;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid khaki;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form button:hover {
+    color: black;
+    background-color: cornsilk;
+    box-shadow: 3px 3px 10px red, -3px -3px 10px red;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+/* contact page end */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+/* footer :start */
+footer {
+    background-color:cadetblue;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.parent5 a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    color: white;
+    margin-inline: 10px;
+    font-size: 20px;
+}
+
+.parent5 p {
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(90deg,rgb(54, 54, 54),rgb(139, 139, 139),rgb(54, 54, 54));
+    line-height: 30px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* footer :end */
