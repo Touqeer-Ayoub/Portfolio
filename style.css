@@ -294,6 +294,7 @@ nav .child3 button:hover a:hover {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: black;
+    border: none;
 }
 
 /* project page end */
